@@ -1,0 +1,14 @@
+Thought process while doing the test:
+
+1) Lets get the basic functionality working with 2 different activities (ProductsListActivity and ProductDetailsActivity)
+2) Make sure most of the error cases are covered.
+3) To do one of the bonus task move ProductDetailsActivity ui into a ProductDetailsFragment.
+4) To have slidable product details view either list of products need to be passed to ViewPagerProductActivity or they have to be hoseted somewhere else.
+5) Decided to have ProductsManager class to host those products.
+6) ViewPagerProductActivity gets the list of products from ProductsManager and displays them in viewpager.
+
+Next steps:
+ - Move all API related code into ProductsManager and implement call backs to Activity.
+ - Move ProductsListActivity ui into Fragment.
+ - Rename ProductsListActivity to MainActivity and configure it to host fragments.
+ - Layout of MainActivity can be different based on Phone or Tablet(2nd Bonus task). 
