@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TestClub</string>
+
+    <string name="error_dialog_title">Error!!</string>
+    <string name="error_dialog_Message">Opps! Something went wrong.\n Sorry for the inconvenience.\nClick \'Try again\' to load the products.\n Click \'Cancel\' to close the app. </string>
+    <string name="error_positive_btn">Try again</string>
+    <string name="error_neagtive_btn">Cancel</string>
+
+    <string name="error_dialog_Message_for_more">Opps! Something went wrong.Cannot load additional products. Try later </string>
+    <string name="error_positive_btn_for_more">Ok</string>
+
+    <string name="error_message_in_details"> Sorry, we are unable to load the product.\nPlease try again after some time</string>
+    <string name="total_counter"> %d of %d</string>
+    <string name="add_to_cart">Add to cart</string>
+    <string name="not_available">Not available</string>
+    <string name="reviews">Reviews: %.2f of 5  (%d)</string>
+    <string name="no_reviews">No reviews yet</string>
+    <string name="need_to_implement_cart">Need to implement cart functionality</string>
+</resources>
